@@ -15,6 +15,7 @@
         <module>thread_support</module>
         <module>cache_support</module>
         <module>algorithms_support</module>
+        <module>framework_diy</module>
     </modules>
 
     <properties>

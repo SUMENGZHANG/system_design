@@ -6,9 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="thread_support" />
         <module name="algorithms_support" />
         <module name="cache_support" />
-        <module name="thread_support" />
+        <module name="framework_diy" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="21" />
