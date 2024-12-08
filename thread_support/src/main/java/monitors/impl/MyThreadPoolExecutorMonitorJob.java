@@ -37,10 +37,13 @@ public class MyThreadPoolExecutorMonitorJob {
 
     private MonitorInfos getMonitorInfos() {
 
-        MonitorInfos monitor = new MonitorInfos();
+        MonitorInfos monitors = new MonitorInfos();
         ConcurrentHashMap<String, MyListeningExecutor> executors = ThreadPoolManager.getAllThreadPools();
         int totalCurrentThreadCount  = 0;
         int threadPoolSize =executors.size();
+
+
+        return monitors;
 
 
 
