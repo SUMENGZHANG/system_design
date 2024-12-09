@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="thread_support" />
+        <module name="console_games" />
         <module name="algorithms_support" />
         <module name="cache_support" />
         <module name="framework_diy" />

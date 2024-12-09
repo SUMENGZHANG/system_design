@@ -16,6 +16,7 @@
         <module>cache_support</module>
         <module>algorithms_support</module>
         <module>framework_diy</module>
+        <module>console_games</module>
     </modules>
 
     <properties>
