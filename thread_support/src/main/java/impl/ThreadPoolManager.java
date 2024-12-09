@@ -1,5 +1,7 @@
 package impl;
 
+import monitors.impl.MyThreadPoolReporter;
+
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.RejectedExecutionHandler;
@@ -30,12 +32,18 @@ public class ThreadPoolManager {
     public static void init(){
         // init reject policies
         rejectPoliciesRegister();
-        // registerReporter(new ThreadPoolReporter());
+        registerReporter(new MyThreadPoolReporter());
+    }
+
+    private static void registerReporter(MyThreadPoolReporter myThreadPoolReporter) {
+
+
+
     }
 
     private static void rejectPoliciesRegister() {
         rejectHandlerMap.put("AbortPolicy", new ThreadPoolExecutor.AbortPolicy());
-        rejectHandlerMap.put("CallerRunsPolicy", new ThreadPoolExecutor.CallerRunsPolicy();
+        rejectHandlerMap.put("CallerRunsPolicy", new ThreadPoolExecutor.CallerRunsPolicy());
         rejectHandlerMap.put("DiscardPolicy", new ThreadPoolExecutor.DiscardPolicy());
         rejectHandlerMap.put("DiscardOldestPolicy", new ThreadPoolExecutor.DiscardOldestPolicy());
     }

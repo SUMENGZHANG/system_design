@@ -20,6 +20,7 @@ public class MyExecutor extends ThreadPoolExecutor {
             long keepAliveTime,
             TimeUnit unit,
             BlockingQueue<Runnable> workQueue,
+            ThreadFactory threadFactory,
             RejectedExecutionHandler rejectedExecutionHandler) {
         super(corePoolSize, maximumPoolSize, keepAliveTime, unit, workQueue,rejectedExecutionHandler);
         this.threadPoolName = threadPoolName;

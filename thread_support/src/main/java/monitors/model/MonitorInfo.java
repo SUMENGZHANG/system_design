@@ -8,10 +8,20 @@ public class MonitorInfo {
     private String threadPoolName;
     private int corePoolSize;
     private int maxPoolSize;
+    // 正在处理任务的线程数
     private int activeThreadCount;
-    private int currentQueueLength;
+    // 当前线程数
+    private int currentThreadCount;
     private int queueLength;
     private int alarmQueueLength;
+
+    public int getCurrentThreadCount() {
+        return currentThreadCount;
+    }
+
+    public void setCurrentThreadCount(int currentThreadCount) {
+        this.currentThreadCount = currentThreadCount;
+    }
 
     public int getCorePoolSize() {
         return corePoolSize;
@@ -44,13 +54,6 @@ public class MonitorInfo {
         this.activeThreadCount = activeThreadCount;
     }
 
-    public int getCurrentQueueLength() {
-        return currentQueueLength;
-    }
-
-    public void setCurrentQueueLength(int currentQueueLength) {
-        this.currentQueueLength = currentQueueLength;
-    }
 
     public int getQueueLength() {
         return queueLength;
