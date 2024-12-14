@@ -1,6 +1,6 @@
-package impl;
+package projects.impl;
 
-import monitors.impl.MyThreadPoolReporter;
+import projects.monitors.impl.MyThreadPoolReporter;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;

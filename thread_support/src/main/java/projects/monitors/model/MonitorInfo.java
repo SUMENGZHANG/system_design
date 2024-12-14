@@ -1,4 +1,4 @@
-package monitors.model;
+package projects.monitors.model;
 
 /**
  * 用来收集每个线程池的关键信息

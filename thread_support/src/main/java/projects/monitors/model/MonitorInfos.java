@@ -1,4 +1,4 @@
-package monitors.model;
+package projects.monitors.model;
 
 import java.util.*;
 

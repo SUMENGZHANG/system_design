@@ -1,6 +1,6 @@
-package monitors.impl;
+package projects.monitors.impl;
 
-import monitors.model.MonitorInfos;
+import projects.monitors.model.MonitorInfos;
 
 import java.util.function.Consumer;
 

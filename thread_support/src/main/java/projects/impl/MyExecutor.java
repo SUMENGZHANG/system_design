@@ -1,6 +1,4 @@
-package impl;
-
-import com.google.common.util.concurrent.AbstractListeningExecutorService;
+package projects.impl;
 
 import java.util.concurrent.*;
 
@@ -12,7 +10,6 @@ import java.util.concurrent.*;
 public class MyExecutor extends ThreadPoolExecutor {
 
     private final String threadPoolName;
-
     public MyExecutor(
             String threadPoolName,
             int corePoolSize,

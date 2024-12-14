@@ -1,9 +1,9 @@
-package monitors.impl;
+package projects.monitors.impl;
 
-import impl.MyListeningExecutor;
-import impl.ThreadPoolManager;
-import monitors.model.MonitorInfo;
-import monitors.model.MonitorInfos;
+import projects.impl.MyListeningExecutor;
+import projects.impl.ThreadPoolManager;
+import projects.monitors.model.MonitorInfo;
+import projects.monitors.model.MonitorInfos;
 
 import java.lang.management.ManagementFactory;
 import java.lang.management.ThreadMXBean;
