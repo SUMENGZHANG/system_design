@@ -1,4 +1,4 @@
-package Future;
+package tutorials.Future;
 
 import java.util.concurrent.FutureTask;
 

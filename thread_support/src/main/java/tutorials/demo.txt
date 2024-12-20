@@ -1,0 +1,3 @@
+this is a text file
+i use this file to test future function
+maybe use a unique thread to process
